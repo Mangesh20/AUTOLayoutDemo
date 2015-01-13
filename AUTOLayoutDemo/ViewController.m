@@ -18,6 +18,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    [self.scrollView setFrame:CGRectMake(0, 0, 320, 200)];
+
+    [self.scrollView setContentSize:CGSizeMake(320, 400)];
 }
 
 - (void)didReceiveMemoryWarning
